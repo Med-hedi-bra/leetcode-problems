@@ -21,7 +21,7 @@ public:
     bool findTarget(TreeNode* root, int k) {
         vector<int> ans;
         build(root, ans);
-        int i=0,j=ans.size()-1;
+        int i=0,j=ans.size()-1;Big
         while(i<j){
             if(ans[i]+ans[j] == k)
             return 1;
